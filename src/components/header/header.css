@@ -1,0 +1,54 @@
+.container{
+    background-color: rgba(127, 172, 230, 0.24);
+    text-align: center;
+    text-shadow: 3px;
+    font-family: monospace;
+    font-size: 25px;
+    position: sticky;
+    top: 0;
+}
+.siteName{
+    color: rgb(18, 67, 107);
+    padding: 5px;
+    margin-bottom: auto;   
+}
+.homfav{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-gap: 10px;
+    padding: 0 0px 10px 0px;
+}
+
+.homfav1{
+    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color:  rgb(18, 67, 107);
+  font-family: monospace;
+}
+
+.homfav2{
+    background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  text-decoration: none;
+  color:  rgb(18, 67, 107);
+  font-family: monospace;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: 100px 70px 70px 70px;
+    grid-gap: 5px;
+}
