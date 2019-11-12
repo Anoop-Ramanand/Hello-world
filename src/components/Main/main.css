@@ -3,3 +3,12 @@
     grid-template-columns: 5fr 1fr 1fr 1fr ;
     margin:25px 0;
 }
+
+.mainContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 60px;
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
+}

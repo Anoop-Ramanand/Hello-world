@@ -1,0 +1,109 @@
+.cart .subheading {
+  margin: 0px;
+  color: silver;
+}
+
+.cart .heading {
+  margin: 30px 0 5px 0;
+}
+
+.sub-counts {
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+}
+.cart-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.data-container {
+  display:grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.options {
+  margin:20px 0;
+}
+
+.options label:target(:first-child){
+  border-left:1px solid #000;
+  font-size: 11px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.details .name {
+    margin: 20px 0 0 0;
+}
+
+.details .color,
+.details .style {
+    margin: 8px 0;
+    color: silver;
+}
+
+.size {
+    color:silver;
+}
+
+hr {
+    color:silver;
+}
+
+.image {
+  height: 200px;
+  max-width: 160px;
+}
+
+.description-conatiner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+}
+
+
+.main-shopping-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.separator {
+  background: #ccc;
+  height: 14px;
+  border-radius: 50px;
+  width: 80%;
+}
+
+.total-price {
+  width: 50%;
+    float: right;
+}
+
+.total-price .sub-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.total-price .sub-total .price {
+  justify-self: end;
+}
+
+.total-price .buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 50%;
+  float: right;
+}
+.total-price .buttons a {
+  justify-self:  end
+}
+
+.checkout-text {
+  text-align: right;
+  padding-top: 40px;
+}
+
+.quantity input {
+  width: 40px;
+  height: 30px;
+}

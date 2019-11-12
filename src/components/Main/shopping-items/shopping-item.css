@@ -1,0 +1,17 @@
+.image-container img {
+  height: 200px;
+  max-width: 160px;
+}
+
+.shopping-item {
+  position: relative;
+  width: 250px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.fa-style {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
